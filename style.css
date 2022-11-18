@@ -1,0 +1,84 @@
+body{
+    padding:10px 50px;
+    background: rgb(244, 247, 239)
+}
+.container{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(255, 249, 249);
+    width: 500px;
+    margin:2vh auto 0 auto;
+    border-radius:20px;
+    flex-direction: column;
+}
+h1{
+    text-align:center;
+    letter-spacing:1.5px;
+    word-spacing: 1px ;
+    color:#187236;
+}
+.formdes{
+    font-size: 20px;
+    width:100%;
+}
+.formdes input, select{
+    width:100%;
+    padding:6px;
+    border:2px solid rgb(17, 16, 16);
+    margin:5px;
+    border-radius: 10px;
+    font-size: 15px;
+}
+.formerr{
+    color:rgb(255, 248, 248);
+}
+input[type="radio"],input[type="checkbox"]{
+    width:6%;
+    margin:5px;
+    padding: 5px;
+}
+textarea{
+    width:100%;
+    border:1px solid rgb(38, 90, 121);
+    border-radius: 10px;
+    font-size: 15px;
+    /*margin:20px;
+    padding: 35px;*/
+}
+input[type="submit"]{
+    margin: 10px;
+    padding: 20px;
+    font-size: 22px;
+    border-radius: 10px;
+    color:wheat;
+    background-color: rgb(20, 130, 173);
+    letter-spacing: 8px;
+    font-weight: 600;
+    width:100%;
+
+    text-align: center;
+
+}
+.formdes input:focus{
+    outline: 0;
+}
+.formdes.success input{
+    border-color:darkgreen;
+}
+.formdes.error input{
+    border-color:red;
+}
+input[type="submit"]:hover{
+
+    font-size: 22px;
+    border-radius: 10px;
+    letter-spacing: 8px;
+    font-weight: 600;
+    text-align:center;
+    cursor: pointer;
+    color:rgb(245, 243, 243);
+    background-color: rgb(236, 241, 235);
+    width:100%;
+
+}
